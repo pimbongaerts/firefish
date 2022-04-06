@@ -17,7 +17,7 @@
           "url": "https://github.com/pimbongaerts/firefish/raw/main/arduino/firefish_m4.zip",
           "archiveFileName": "firefish_m4.zip",
           "checksum": "SHA-256:86daa65788c96a3f05766f0580eff35a",
-          "size": "1885584930",
+          "size": "24652643",
           "boards": [
             {
               "name": "FireFish m4 v2"
