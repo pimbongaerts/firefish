@@ -14,10 +14,10 @@
           "architecture": "samd",
           "version": "0.2",
           "category": "Arduino",
-          "url": "http://downloads.arduino.cc/PR/samd/%%FILENAME%%",
-          "archiveFileName": "%%FILENAME%%",
-          "checksum": "SHA-256:%%CHECKSUM%%",
-          "size": "%%SIZE%%",
+          "url": "https://github.com/pimbongaerts/firefish/blob/main/arduino/firefish_m4.zip",
+          "archiveFileName": "firefish_m4.zip",
+          "checksum": "SHA-256:86daa65788c96a3f05766f0580eff35a",
+          "size": "1885584930",
           "boards": [
             {
               "name": "FireFish M4 v2"
