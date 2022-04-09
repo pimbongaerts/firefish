@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "name": "FireFish",
+      "maintainer": "Pim Bongaerts",
+      "websiteURL": "https://github.com/pimbongaerts/firefish",
+      "email": "pimbongaerts@gmail.com",
+      "help": {
+        "online": "https://github.com/pimbongaerts/firefish"
+      },
+      "platforms": [
+        {
+          "name": "FireFish",
+          "architecture": "samd",
+          "version": "0.2",
+          "category": "Arduino",
+          "url": "https://github.com/pimbongaerts/firefish/raw/main/arduino/firefish_m4_v4.zip",
+          "archiveFileName": "firefish_m4.zip",
+          "checksum": "SHA-256:65adbfc950b734c2cba0a83b91746ef068b01df317e871ef11a2459d084583bf",
+          "size": "26739932",
+          "boards": [
+            {
+              "name": "FireFish m4 v4"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}

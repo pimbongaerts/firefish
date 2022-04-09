@@ -163,8 +163,8 @@ static const uint8_t SCL = PIN_WIRE_SCL;
 #define WIRE1_IT_HANDLER_2    SERCOM1_2_Handler
 #define WIRE1_IT_HANDLER_3    SERCOM1_3_Handler
 
-static const uint8_t SDA = PIN_WIRE1_SDA;
-static const uint8_t SCL = PIN_WIRE1_SCL;
+static const uint8_t SDA1 = PIN_WIRE1_SDA;
+static const uint8_t SCL1 = PIN_WIRE1_SCL;
 
 /*
  * USB

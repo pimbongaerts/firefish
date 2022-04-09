@@ -14,13 +14,13 @@
           "architecture": "samd",
           "version": "0.2",
           "category": "Arduino",
-          "url": "https://github.com/pimbongaerts/firefish/raw/main/arduino/firefish_m4_v2.zip",
+          "url": "https://github.com/pimbongaerts/firefish/raw/main/arduino/firefish_m4_v4.zip",
           "archiveFileName": "firefish_m4.zip",
-          "checksum": "SHA-256:4705786690c09ef846fd8ae3c0a38eb41e6a8661f16ff7dd05c64eba1e8a8689",
-          "size": "26859500",
+          "checksum": "SHA-256:65adbfc950b734c2cba0a83b91746ef068b01df317e871ef11a2459d084583bf",
+          "size": "26739932",
           "boards": [
             {
-              "name": "FireFish m4 v2"
+              "name": "FireFish m4 v4"
             }
           ],
           "toolsDependencies": [
