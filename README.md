@@ -15,7 +15,7 @@ FireFish is an open-source microcontroller (*in development*; v0.4) designed to 
 * Intervalometer/trigger for two external camera(s)
 * Accelerometer for tap/double-tap control (or through a wired 3-button remote control)
 * Rechargable Lithium battery (3.7V; e.g. 18650) 
-* Supports Arduino (and CircuitPython)
+* Supports Arduino (and CircuitPython) for easy programming
 * Fits inside [BlueRobotics 2" watertight enclosure](https://bluerobotics.com/product-category/watertight-enclosures/) (see image below), 
 * Can be charged, downloaded and reprogrammed using an USB connection while leaving the housing sealed, when using a 6-pin [BlueTrail Bulkhead](https://www.bluetrailengineering.com/product-page/cobalt-series-bulkhead-connector).
 
@@ -23,9 +23,13 @@ FireFish is an open-source microcontroller (*in development*; v0.4) designed to 
 
 Using FireFish acting as an intervalometer for a Canon 5DsR camera used in photogrammetry surveys of shallow and mesophotic coral reef habitats. The FireFish simultaneously records and displays altitude from one or two [Ping Sonars](https://bluerobotics.com/store/sensors-sonars-cameras/sonar/ping-sonar-r2-rp/) and depth from a [BAR30 sensor](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/), so that the diver can maintain a consistent altitude (and parallel attitude when using two sonars) of the camera rig to the substrate (to ensure consistent lighting by the 4 underwater strobes), while also recording positional data from the [Seatrac USBL](https://www.blueprintsubsea.com/seatrac/).
 
+![](photos/photogrammetry.gif)
+
 ### Implementation example #2 - Irradiance measurements
 
-Multiple FireFish to measure underwater light conditions across and within depth zones of coral reefs. Recordings are marked and start/stopped by double-tapping the housing, and the display allows for positional referencing of the recordings, verification that readings are stabilized, and synchronization of measurements across devices (e.g. comparison with open-water reference).
+Using multiple FireFish to measure underwater light conditions across and within depth zones of coral reefs. Recordings are marked and start/stopped by double-tapping, and the display allows for positional referencing of the recordings, verification that readings are stabilized, and synchronization of measurements across devices (e.g. comparison with open-water reference).
+
+![](photos/measuring_irradiance.gif)
 
 ### Current iteration (v0.4) - Schematic & board
 
