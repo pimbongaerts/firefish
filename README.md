@@ -21,13 +21,13 @@ FireFish is an open-source microcontroller (*in development*; v0.4) designed to 
 
 ### Implementation example #1 - Photogrammetry
 
-Using FireFish acting as an intervalometer for a Canon 5DsR camera used in photogrammetry surveys of shallow and mesophotic coral reef habitats. The FireFish simultaneously records and displays altitude from one or two [Ping Sonars](https://bluerobotics.com/store/sensors-sonars-cameras/sonar/ping-sonar-r2-rp/) and depth from a [BAR30 sensor](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/), so that the diver can maintain a consistent altitude (and parallel attitude when using two sonars) of the camera rig to the substrate (to ensure consistent lighting by the 4 underwater strobes), while also recording positional data from the [Seatrac USBL](https://www.blueprintsubsea.com/seatrac/).
+The [Reefscape Genomics Lab](http://www.reefscapegenomics.com/) at the California Academy of Sciences is using the FireFish as an intervalometer for a Canon 5DsR camera used in coral photogrammetry surveys at mesophotic depths. The FireFish simultaneously records and displays altitude from one or two [Ping Sonars](https://bluerobotics.com/store/sensors-sonars-cameras/sonar/ping-sonar-r2-rp/) and depth from a [BAR30 sensor](https://bluerobotics.com/store/sensors-sonars-cameras/sensors/bar30-sensor-r1/), so that the diver can maintain a consistent altitude (and parallel attitude when using two sonars) of the camera rig to the substrate (to ensure consistent lighting by the 4 underwater strobes), while also recording positional data from the [Seatrac USBL](https://www.blueprintsubsea.com/seatrac/).
 
 ![](photos/photogrammetry.gif)
 
 ### Implementation example #2 - Irradiance measurements
 
-Using multiple FireFish to measure underwater light conditions across and within depth zones of coral reefs. Recordings are marked and start/stopped by double-tapping, and the display allows for positional referencing of the recordings, verification that readings are stabilized, and synchronization of measurements across devices (e.g. comparison with open-water reference).
+The [Reefscape Genomics Lab](http://www.reefscapegenomics.com/) also using multiple FireFish to measure underwater light conditions across and within depth zones of coral reefs. Recordings are marked and start/stopped by double-tapping, and the display allows for positional referencing of the recordings, verification that readings are stabilized, and synchronization of measurements across devices (e.g. comparison with open-water reference).
 
 ![](photos/measuring_irradiance.gif)
 
