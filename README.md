@@ -4,7 +4,7 @@
 
 An open-source microcontroller board that supports a wide range of sensors, and gives divers real-time
 depth/altitude feedback, drives a dual-channel camera intervalometer, and logs time-stamped sensor data —
-all inside a standard 2″ underwater housing.
+small enough to fit inside the smallest BlueRobotics 2″ underwater housing.
 
 [![Hardware: CERN-OHL-S v2](https://img.shields.io/badge/hardware-CERN--OHL--S%20v2-1f6feb)](LICENSE-HARDWARE.txt)
 [![Software: MIT](https://img.shields.io/badge/software-MIT-3fb950)](LICENSE-SOFTWARE.txt)
@@ -19,34 +19,31 @@ all inside a standard 2″ underwater housing.
 
 ## Overview
 
-FireFish is a compact, low-cost, customizable board that provides (1) **real-time feedback** on depth, altitude,
+FireFish is a compact board that can provide scientific divers with (1) **real-time feedback** on depth, altitude,
 and other positional data to guide image acquisition; (2) a programmable **dual-channel intervalometer** for one
-or two cameras; and (3) **time-stamped logging** that aligns readily with the imagery to orient the resulting 3D
-model. Its open design adapts well beyond photogrammetry — e.g. synchronized irradiance measurements or
-navigational feedback via acoustic positioning.
+or two cameras; and (3) **time-stamped logging** of sensor data that can be used for downstream photogrammetry model orientation. Its open design adapts well beyond photogrammetry — e.g. synchronized irradiance measurements or for underwater navigation – and provides an easy platform to make sensors designed for underwater vehicles accessible to divers.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <img src="docs/images/photogrammetry.gif" width="100%" alt="Diver conducting a coral-reef photogrammetry survey with FireFish">
-<br><sub><b>Photogrammetry.</b> The diver holds a steady altitude from the live readout while FireFish triggers the camera and logs depth/altitude for 3D-model orientation.</sub>
+<br><sub><b>Photogrammetry.</b> The FireFish allows divers to maintain a fixed altitude from the live readout of a BlueRobotics Ping sonar, while simultaneously triggering a camera and logging depth/altitude for 3D-model orientation.</sub>
 </td>
 <td width="50%" valign="top">
 <img src="docs/images/irradiance.gif" width="100%" alt="Diver logging underwater irradiance with FireFish">
-<br><sub><b>Irradiance measurements (alternative implementation).</b> Multiple units log underwater light across reef depth zones; the real-time display lets recordings be accurately time-synchronized across devices.</sub>
+<br><sub><b>Irradiance measurements (alternative implementation).</b> The Reefscape Genomics Lab uses multiple FireFish units connected to LICOR irradiance sensors to conduct short-term irradiances measures across the reef, relative to time-synchronized measurements of the water column.</sub>
 </td>
 </tr>
 </table>
 
 ## ✨ Features
 
-- 🎯 **Live depth &amp; altitude** on a 2.4″ TFT — hold a consistent altitude above the substrate during surveys
+- 🎯 **Live sensor readout** on a 2.4″ TFT — allowig divers to maintain a consistent altitude
 - 📷 **Dual-channel intervalometer** — focus + shutter for one camera, or alternate-trigger two cameras
 - ⏱️ **Synchronized logging** to onboard flash with a temperature-compensated RTC — easy model orientation
-- 🔌 **Flexible I/O** — I²C (Qwiic / STEMMA QT), 2× UART, RS-232, and analog inputs (Bar30, Ping sonar, LI-COR, IMU/GNSS, DVL/USBL…)
+- 🔌 **Flexible I/O** — I²C (Qwiic / STEMMA QT), 2× UART, RS-232, and 2x analog inputs
 - 🔋 **Onboard LiPo charging** — charge, download, and update firmware *through* the housing, no opening required
-- 🤿 **Dive-ready** — fits standard 2″ (Ø50 mm) housings; depth rating to 225 m
-- 💵 **Low cost** — ≈ US$50 in board parts, ≈ US$800 for a complete integrated instrument
+- 🤿 **Dive-ready** — fits standard 2″ (Ø50 mm) housings with 3D printed carrier; depth rating to 225 m
 - 🛠️ **Fully open** — KiCad design, firmware, enclosure STLs, and an Arduino board-support package
 
 ## 🔧 Specifications
@@ -58,7 +55,7 @@ navigational feedback via acoustic positioning.
 | **Storage** | 16 MB onboard SPI flash (MX25L12833F) |
 | **Timekeeping** | DS3231MZ temperature-compensated RTC (battery-backed) |
 | **Power** | MCP73831 single-cell LiPo charger; 3.3 V &amp; 5 V rails |
-| **Sensing / I/O** | ADS1115 16-bit ADC; I²C, 2× 5 V UART, RS-232 (MAX3232), 2× analog, 3× button |
+| **Sensing / I/O** | ADS1115 16-bit ADC; I²C, UART, RS-232 (MAX3232); tap gesture control |
 | **Camera control** | Dual-channel optically-isolated intervalometer (TCMT1100) |
 | **Board size** | 72 × 43 mm (two-layer PCB) |
 | **Housing** | Standard 2″ (Ø50 mm) BlueRobotics enclosure; depth rating to 225 m |
@@ -83,9 +80,9 @@ The full editable schematic is [`hardware/firefish.kicad_sch`](hardware/firefish
 The full step-by-step build and operation instructions are in the HardwareX article (see [Citation](#citation));
 this repository holds the files those instructions refer to:
 
-- [`hardware/`](hardware/) — fabricate and populate the board (Gerbers + [BOM](hardware/firefish_BOM_pcbway2024.csv) + placement files)
+- [`hardware/`](hardware/) — fabricate and populate the board (Gerbers + BOM + placement files)
 - [`firmware/`](firmware/) — flash the bootloader (J-Link) and upload the example sketch over USB
-- [`enclosure/`](enclosure/) — print the carrier and integrate into a 2″ housing
+- [`enclosure/`](enclosure/) — slide the board into 3D printed carrier and place into a 2″ housing
 
 ## Citation
 
