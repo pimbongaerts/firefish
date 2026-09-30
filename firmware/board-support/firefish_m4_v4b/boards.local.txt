@@ -1,0 +1,62 @@
+# FireFish M4 v0.4b (SAMD51) — board definition
+# Layered onto the Adafruit SAMD core via boards.local.txt.
+# Install the Adafruit SAMD core (v1.7.10) first; see README.
+
+firefish_m4_v4b.name=FireFish M4 v0.4b
+firefish_m4_v4b.vid.0=0x239A
+firefish_m4_v4b.pid.0=0x007D
+firefish_m4_v4b.upload.tool=bossac18
+firefish_m4_v4b.upload.protocol=sam-ba
+firefish_m4_v4b.upload.maximum_size=507904
+firefish_m4_v4b.upload.offset=0x4000
+firefish_m4_v4b.upload.use_1200bps_touch=true
+firefish_m4_v4b.upload.wait_for_upload_port=true
+firefish_m4_v4b.upload.native_usb=true
+firefish_m4_v4b.build.mcu=cortex-m4
+firefish_m4_v4b.build.f_cpu=120000000L
+firefish_m4_v4b.build.usb_product="FireFish M4"
+firefish_m4_v4b.build.usb_manufacturer="Pim Bongaerts"
+firefish_m4_v4b.build.board=FIREFISH_M4
+firefish_m4_v4b.build.core=arduino
+firefish_m4_v4b.build.extra_flags=-D__SAMD51J19A__ -DFIREFISH_M4 -DCRYSTALLESS -D__SAMD51__ -D__FPU_PRESENT -DARM_MATH_CM4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 {build.usb_flags}
+firefish_m4_v4b.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+firefish_m4_v4b.build.openocdscript=openocd_scripts/feather_m4.cfg
+firefish_m4_v4b.build.variant=firefish_m4_v4b
+firefish_m4_v4b.build.variant_system_lib=
+firefish_m4_v4b.build.vid=0x239A
+firefish_m4_v4b.build.pid=0x8022
+firefish_m4_v4b.bootloader.tool=openocd
+firefish_m4_v4b.bootloader.file=firefish_m4/bootloader-firefish_m4-v3.13.0-9-g2fd0593.bin
+firefish_m4_v4b.compiler.arm.cmsis.ldflags="-L{runtime.tools.CMSIS-5.4.0.path}/CMSIS/Lib/GCC/" "-L{build.variant.path}" -larm_cortexM4lf_math -mfloat-abi=hard -mfpu=fpv4-sp-d16
+firefish_m4_v4b.menu.cache.on=Enabled
+firefish_m4_v4b.menu.cache.on.build.cache_flags=-DENABLE_CACHE
+firefish_m4_v4b.menu.cache.off=Disabled
+firefish_m4_v4b.menu.cache.off.build.cache_flags=
+firefish_m4_v4b.menu.speed.120=120 MHz (standard)
+firefish_m4_v4b.menu.speed.120.build.f_cpu=120000000L
+firefish_m4_v4b.menu.speed.150=150 MHz (overclock)
+firefish_m4_v4b.menu.speed.150.build.f_cpu=150000000L
+firefish_m4_v4b.menu.speed.180=180 MHz (overclock)
+firefish_m4_v4b.menu.speed.180.build.f_cpu=180000000L
+firefish_m4_v4b.menu.speed.200=200 MHz (overclock)
+firefish_m4_v4b.menu.speed.200.build.f_cpu=200000000L
+firefish_m4_v4b.menu.opt.small=Small (-Os) (standard)
+firefish_m4_v4b.menu.opt.small.build.flags.optimize=-Os
+firefish_m4_v4b.menu.opt.fast=Fast (-O2)
+firefish_m4_v4b.menu.opt.fast.build.flags.optimize=-O2
+firefish_m4_v4b.menu.opt.faster=Faster (-O3)
+firefish_m4_v4b.menu.opt.faster.build.flags.optimize=-O3
+firefish_m4_v4b.menu.opt.fastest=Fastest (-Ofast)
+firefish_m4_v4b.menu.opt.fastest.build.flags.optimize=-Ofast
+firefish_m4_v4b.menu.opt.dragons=Here be dragons (-Ofast -funroll-loops)
+firefish_m4_v4b.menu.opt.dragons.build.flags.optimize=-Ofast -funroll-loops
+firefish_m4_v4b.menu.maxqspi.50=50 MHz (standard)
+firefish_m4_v4b.menu.maxqspi.50.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=50000000
+firefish_m4_v4b.menu.maxqspi.fcpu=CPU Speed / 2
+firefish_m4_v4b.menu.maxqspi.fcpu.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=({build.f_cpu})
+firefish_m4_v4b.menu.usbstack.arduino=Arduino
+firefish_m4_v4b.menu.usbstack.tinyusb=TinyUSB
+firefish_m4_v4b.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
+firefish_m4_v4b.menu.debug.off=Off
+firefish_m4_v4b.menu.debug.on=On
+firefish_m4_v4b.menu.debug.on.build.flags.debug=-g

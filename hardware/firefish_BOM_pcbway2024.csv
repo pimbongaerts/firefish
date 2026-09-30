@@ -1,0 +1,44 @@
+Item #,Designator,Qty,Manufacturer,Mfg Part #,Description / Value,Package,Type,Your Instructions / Notes,Previously used JLCPCB Part # ,Footprint
+1,"C1,C2,C3,C4,C5,C7,C15,C21",8,,,0.1uF  ±10%,0805,SMD,Any manufacturer,C49678,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+2,C23,1,,,10uF  ±10%,CASE-A-3216-18(mm),SMD,Any manufacturer,C7171,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A
+3,"C6,C10,C11,C13,C14,C17,C18,C20,C22,C24,C25,C29,C30,C31",14,,,1uF  ±10%,0805,SMD,Any manufacturer,C28323,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+4,"C8,C9,C12,C16,C19,C26,C27,C28",8,,,10uF  ±10%,0805,SMD,Any manufacturer,C15850,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+5,R1,1,,,100 ±1%,0805,SMD,Any manufacturer,C17408,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+6,"R10,R11,R16,R17",4,,,2.2K ±1%,0805,SMD,Any manufacturer,C17520,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+7,"R13,R14,R15",3,,,11K ±1%,0805,SMD,Any manufacturer,C17429,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+8,"R18,R19,R27",3,,,1k ±1%,0805,SMD,Any manufacturer,C17513,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+9,"R2,R4,R7,R9,R22,R24",6,,,10K ±1%,0805,SMD,Any manufacturer,C17414,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+10,R21,1,,,36K ±1%,0805,SMD,Any manufacturer,C4360,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+11,R23,1,,,30K ±1%,0805,SMD,Any manufacturer,C17621,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+12,R25,1,,,2k ±1%,0805,SMD,Any manufacturer,C17604,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+13,R26,1,,,10k ±1%,0805,SMD,Any manufacturer,C17414,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+14,"R3,R12,R29,R30,R34,R35",6,,,100K ±1%,0805,SMD,Any manufacturer,C17422,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+15,R36,1,,,20 ±1%,0805,SMD,Any manufacturer,C17544,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+16,"R5,R6",2,,,300 ±1%,0805,SMD,Any manufacturer,C17617,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+17,"R8,R20",2,,,620 ±1%,0805,SMD,Any manufacturer,,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+18,"D1,D4",2,"Jiangsu Changjing Electronics Technology Co., Ltd.",B5819W SL,Schottky 40V 600mV@1A,SOD-123F,SMD,Any equivalent fine too,C8598,Diode_SMD:D_SOD-123F
+19,"D2,D5",2,Hubei KENTO Elec,KT-0805G,Emerald,0805,SMD,Any equivalent fine too,C2297,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+20,D3,1,Hubei KENTO Elec,KT-0805Y,Yellow,0805,SMD,Any equivalent fine too,C2296,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+21,"FB1,FB2,FB3",3,TDK,MMZ2012Y102BT000,Ferrite 300m½ ±25% 1k½@100MHz 0805 Ferrite Beads,0805,SMD,Any equivalent fine too,C76810,0805
+22,J1,1,Molex,502443-0270,J_BAT,Connector_Molex:Molex_CLIK-Mate_502443-0270_1x02-1MP_P2.00mm_Vertical,SMD,,,Connector_Molex:Molex_CLIK-Mate_502443-0270_1x02-1MP_P2.00mm_Vertical
+23,J2,1,JST,SM04B-SRSS-TB,QWIIC_I2C,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,SMD,Any equivalent fine too,,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+24,J3,1,Molex,502443-1570,Conn_01x15_Left,Connector_Molex:Molex_CLIK-Mate_502443-1570_1x15-1MP_P2.00mm_Vertical,SMD,,,Connector_Molex:Molex_CLIK-Mate_502443-1570_1x15-1MP_P2.00mm_Vertical
+25,J4,1,Molex,502443-1470,Conn_01x14_Right,Connector_Molex:Molex_CLIK-Mate_502443-1470_1x14-1MP_P2.00mm_Vertical,SMD,,,Connector_Molex:Molex_CLIK-Mate_502443-1470_1x14-1MP_P2.00mm_Vertical
+26,J6,1,Molex,52271-2069,Conn_01x20,52271:Molex-52271-2069-Manufacturer_Recommended,SMD,,,52271:Molex-52271-2069-Manufacturer_Recommended
+27,J7,1,Amphenol ICC,10118192-0001LF,10118192-0001LF,digikey-footprints:USB_Micro_B_Female_10118192,SMD,Any equivalent fine too,C132564,digikey-footprints:USB_Micro_B_Female_10118192
+28,J8,1,JST,SM04B-GHS-TB,SM04B-GHS-TB(LF)(SN)-,SM04B-GHS-TB_LF__SN_-:JST_SM04B-GHS-TB(LF)(SN)-,SMD,Any equivalent fine too,,SM04B-GHS-TB_LF__SN_-:JST_SM04B-GHS-TB(LF)(SN)-
+29,L1,1,Murata Electronics,LQH32PN100MNCL,10uH,1210,SMD,Any equivalent fine too,C86073,LQH32PN100MN0L:IND_LQH32PN100MN0L
+30,Q1,1,Vishay Siliconix,SI2323DS-T1,SI2323DS,SOT-23,SMD,Any equivalent fine too,C75561,Package_TO_SOT_SMD:SOT-23
+31,S1,1,C&K,KMR211NGLFS,KMR211NGLFS,KMR211NGLFS:SW_KMR211NGLFS,SMD,Any equivalent fine too,,KMR211NGLFS:SW_KMR211NGLFS
+32,U1,1,Texas Instruments,MAX3232CPWRG4,MAX3232CPWRG4,16-TSSOP,SMD,Any equivalent fine too,,MAX3232CPWRG4:SOP65P640X120-16N
+33,U10,1,Microchip Tech,MCP73831T-2ACI/OT,MCP73831_2,SOT-23-5,SMD,Any equivalent fine too,C424093,SOT-23-5
+34,U11,1,Analog Devices Inc./Maxim Integrated,DS3231MZ+TRL,DS3231MZ,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,SMD,Any equivalent fine too,C107410,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+35,U12,1,Texas Instruments,ADS1115IDGSR,ADS1115IDGS,Package_SO:MSOP-10_3x3mm_P0.5mm,SMD,Any equivalent fine too,C37593,Package_SO:MSOP-10_3x3mm_P0.5mm
+36,U2,1,Microchip Technology,ATSAMD51J19A-AU,ATSAMD51J64-TQFP(10X10),64-TQFP,SMD,Any equivalent fine too,,OSO-BOOK-A1-06:TQFP64-10X10
+37,U3,1,Analog Devices,ADXL345BCCZ-RL7,ADXL345BCCZ,LGA-14(3x5),SMD,Any equivalent fine too,C9667,digikey-footprints:LGA-14_3x5mm_RevA
+38,U4,1,MXIC(Macronix),MX25L12833FM2I-10G,MX25L12833FM2I,SOP-8-200mil,SMD,Any equivalent fine too,C701355,MX25L3233FM2I-08Q:SOIC127P790X216-8N
+39,"U5,U6",2,Vishay Intertech,TCMT1100,TCMT1100,SOP-4-1.27mm,SMD,Any equivalent fine too,C118298,Package_SO:SOP-4_4.4x2.6mm_P1.27mm
+40,U7,1,ROHM Semicon,BU33SD5WG-TR,BU33SD5WG-TR,"SC-74A, SOT-753",SMD,Any equivalent fine too,,SOT95P280X125-5N:SOT95P280X125-5N
+41,U8,1,Texas Instruments,TPS79733DCKR,TPS79733DCKR,"5-TSSOP, SC-70-5, SOT-353",SMD,Any equivalent fine too,,SOT65P210X110-5N:SOT65P210X110-5N
+42,U9,1,Microchip Technology,MIC2619YD6-TR,MIC2619YD6,TSOT-23-6,SMD,Any equivalent fine too,,Package_TO_SOT_SMD:TSOT-23-6
+,,,,,, ,,,, 

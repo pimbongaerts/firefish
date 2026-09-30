@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# KiCad — local/user state and auto-generated files
+*-backups/
+fp-info-cache
+*.kicad_prl
+*.bak
+*~
+_autosave-*
+
+# Editors
+.vscode/
+.idea/
