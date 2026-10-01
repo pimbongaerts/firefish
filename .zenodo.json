@@ -1,0 +1,25 @@
+{
+  "title": "FireFish v0.4b — open-source microcontroller for underwater photogrammetry",
+  "version": "v0.4b",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CERN-OHL-S-2.0",
+  "creators": [
+    {
+      "name": "Bongaerts, Pim",
+      "affiliation": "California Academy of Sciences",
+      "orcid": "0000-0001-6747-6044"
+    }
+  ],
+  "keywords": [
+    "open-source hardware",
+    "underwater photogrammetry",
+    "scientific diving",
+    "microcontroller",
+    "ATSAMD51",
+    "intervalometer",
+    "data logging",
+    "coral reefs"
+  ],
+  "description": "<p>FireFish is a compact, open-source microcontroller board (ATSAMD51J19A) that gives divers real-time depth/altitude feedback, drives a dual-channel camera intervalometer, and logs time-stamped sensor data &mdash; inside a standard 2&Prime; underwater housing. This archive is the design-file deposit for board revision <strong>v0.4b</strong>, and contains the KiCad hardware design (schematic, PCB, Gerbers, BOM), the Arduino board-support package and example firmware, the UF2 bootloader board configuration, and the 3D-printable enclosure carriers.</p><p>Licensed by part: hardware (KiCad, Gerbers, STLs, BOM) under CERN-OHL-S v2; original software/firmware under MIT; documentation and figures under CC BY 4.0. Bundled third-party firmware retains its upstream licenses.</p><p>Described in the accompanying HardwareX article (DOI to be added on publication).</p>"
+}
