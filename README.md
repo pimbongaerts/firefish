@@ -73,7 +73,7 @@ or two cameras; and (3) **time-stamped logging** of sensor data that can be used
 
 ![FireFish schematic](docs/images/schematic.png)
 
-The full editable schematic is [`hardware/firefish.kicad_sch`](hardware/firefish.kicad_sch) (KiCad 8). *This rendered overview is a placeholder from an earlier revision (rev v01) and will be refreshed.*
+The full editable schematic is [`hardware/firefish.kicad_sch`](hardware/firefish.kicad_sch) (KiCad 8).
 
 ## 🛠️ Assembling a FireFish
 
