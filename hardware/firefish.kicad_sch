@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "FireFish")
-		(rev "v01")
+		(rev "v04b")
 		(comment 1 "Pim Bongaerts")
 	)
 	(lib_symbols
@@ -10585,6 +10585,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.556 229.235) (xy 323.85 229.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d26efa9-2dfd-489c-b880-b7a9fa6d76c0")
+	)
+	(wire
+		(pts
 			(xy 75.565 240.03) (xy 91.44 240.03)
 		)
 		(stroke
@@ -11845,6 +11855,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.5048 236.855) (xy 323.85 236.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc3f691-01e6-4cb5-83b1-5a4e0e25aac9")
+	)
+	(wire
+		(pts
 			(xy 346.71 63.5) (xy 348.615 63.5)
 		)
 		(stroke
@@ -12345,16 +12365,6 @@
 	)
 	(wire
 		(pts
-			(xy 300.355 229.235) (xy 323.85 229.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f362137-e0fb-4355-af96-b4756d15eafe")
-	)
-	(wire
-		(pts
 			(xy 51.435 43.815) (xy 51.435 45.72)
 		)
 		(stroke
@@ -12492,16 +12502,6 @@
 			(type default)
 		)
 		(uuid "99b8f8db-bc4b-4fea-8bde-887096330f3d")
-	)
-	(wire
-		(pts
-			(xy 307.975 236.855) (xy 323.85 236.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c88944-5852-4af5-ada1-c77cfe32a8ac")
 	)
 	(wire
 		(pts
@@ -12835,7 +12835,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.355 229.235) (xy 300.355 231.14)
+			(xy 313.5048 236.855) (xy 313.5048 238.5189)
 		)
 		(stroke
 			(width 0)
@@ -13705,16 +13705,6 @@
 	)
 	(wire
 		(pts
-			(xy 307.975 234.95) (xy 307.975 236.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3841e64-9869-4000-b6d7-31ea35547925")
-	)
-	(wire
-		(pts
 			(xy 182.245 36.83) (xy 182.245 40.005)
 		)
 		(stroke
@@ -13842,6 +13832,16 @@
 			(type default)
 		)
 		(uuid "fee80ae7-f484-4a55-87a4-664bf4c68df0")
+	)
+	(wire
+		(pts
+			(xy 313.556 229.1461) (xy 313.556 229.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9617a2-c2ee-4015-bd32-851b0bab1966")
 	)
 	(text "Bar30 (I2C)"
 		(exclude_from_sim no)
@@ -15346,7 +15346,7 @@
 	)
 	(global_label "SDA_BOT"
 		(shape input)
-		(at 323.85 231.775 180)
+		(at 323.85 234.315 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15355,7 +15355,7 @@
 		)
 		(uuid "993d5b07-9acb-489f-8549-e461c11677f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.85 231.775 0)
+			(at 323.85 234.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16306,7 +16306,7 @@
 	)
 	(global_label "SCL_BOT"
 		(shape input)
-		(at 323.85 234.315 180)
+		(at 323.85 231.775 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16315,7 +16315,7 @@
 		)
 		(uuid "f7ab14c7-b411-42b9-a927-517f5fc457e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.85 234.315 0)
+			(at 323.85 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29696,7 +29696,7 @@
 	)
 	(symbol
 		(lib_id "firefish-rescue:GNDD-power")
-		(at 300.355 231.14 0)
+		(at 313.5048 238.5189 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29704,7 +29704,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000624fd8a8")
 		(property "Reference" "#PWR038"
-			(at 300.355 237.49 0)
+			(at 313.5048 244.8689 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29713,7 +29713,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 300.4566 235.077 0)
+			(at 313.6064 242.4559 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29721,7 +29721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.355 231.14 0)
+			(at 313.5048 238.5189 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29730,7 +29730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.355 231.14 0)
+			(at 313.5048 238.5189 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29739,7 +29739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 300.355 231.14 0)
+			(at 313.5048 238.5189 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29761,7 +29761,7 @@
 	)
 	(symbol
 		(lib_id "firefish-rescue:+3.3V-power")
-		(at 307.975 234.95 0)
+		(at 313.556 229.1461 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29769,7 +29769,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000624fd8b2")
 		(property "Reference" "#PWR080"
-			(at 307.975 238.76 0)
+			(at 313.556 232.9561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29778,7 +29778,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 306.705 230.505 0)
+			(at 312.286 224.7011 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29786,7 +29786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.975 234.95 0)
+			(at 313.556 229.1461 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29795,7 +29795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 307.975 234.95 0)
+			(at 313.556 229.1461 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29804,7 +29804,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 307.975 234.95 0)
+			(at 313.556 229.1461 0)
 			(effects
 				(font
 					(size 1.27 1.27)
