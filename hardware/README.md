@@ -7,9 +7,8 @@ outputs used for the PCBWay build. Licensed **CERN-OHL-S v2** (see repo `LICENSE
 
 ![FireFish schematic](../docs/images/schematic.png)
 
-> ⚠️ **Placeholder render.** This PNG was exported from an earlier revision (rev v01, KiCad 5.1.5)
-> and is included for a quick overview only. The authoritative, current schematic is
-> `firefish.kicad_sch` (KiCad 8, rev v0.4b); a fresh export will replace this image.
+> Rendered overview of the schematic. The authoritative, editable source is
+> `firefish.kicad_sch` (KiCad 8).
 
 ## Contents
 ```
@@ -43,8 +42,3 @@ custom Molex 52271-2069 footprint.
 - 2-layer PCB. Gerbers + drills as fabricated by PCBWay (2024-08-23).
 - BOM cross-checked against the layout: all 93 placed components accounted for; JP1/JP2
   are open solder-bridge jumpers (not populated). See manuscript §4 / repo BOM.
-
-## TODO
-- [ ] Replace the placeholder schematic PNG with a fresh render from the current KiCad 8 design (rev v0.4b).
-- [ ] Regenerate **ERC** on this KiCad 8 design (the archived `.erc` is stale: 2021 / KiCad 5).
-- [ ] (Optional) bundle the custom footprint `.pretty` libraries for full editability.

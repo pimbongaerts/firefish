@@ -191,7 +191,6 @@ static const uint8_t SCL1 = PIN_WIRE1_SCL;
 #define PIN_QSPI_IO3    (18u)
 
 #if !defined(VARIANT_QSPI_BAUD_DEFAULT)
-  // TODO: meaningful value for this
   #define VARIANT_QSPI_BAUD_DEFAULT 5000000
 #endif
 

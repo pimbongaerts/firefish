@@ -66,7 +66,7 @@ or two cameras; and (3) **time-stamped logging** of sensor data that can be used
 |---|---|
 | [`hardware/`](hardware/) | KiCad 8 project — schematic, PCB layout, Gerbers, BOM, and pick-and-place files |
 | [`firmware/`](firmware/) | Arduino board-support package (`firefish_m4_v4b`), an example sketch, and the bootloader |
-| [`enclosure/`](enclosure/) | 3D-printable PETG carrier STLs (short / short-simple / long-simple) |
+| [`enclosure/`](enclosure/) | 3D-printable PETG carrier STLs (short / short-simple / long-simple) + clamp |
 | [`docs/`](docs/) | Figures and documentation |
 
 ## Schematic
