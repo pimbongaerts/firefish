@@ -11,7 +11,7 @@ small enough to fit inside the smallest BlueRobotics 2″ underwater housing.
 [![Docs: CC BY 4.0](https://img.shields.io/badge/docs-CC%20BY%204.0-lightgrey)](LICENSE-DOCS.txt)
 [![MCU: ATSAMD51](https://img.shields.io/badge/MCU-ATSAMD51J19A-d1242f)](hardware/)
 [![Design: KiCad 8](https://img.shields.io/badge/design-KiCad%208-blueviolet)](hardware/)
-[![DOI](https://img.shields.io/badge/DOI-pending%20deposit-orange)](#citation)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23073946.svg)](https://doi.org/10.5281/zenodo.23073946)
 
 <img src="docs/images/firefish_hero.png" width="100%" alt="The FireFish board (front and back), its system-integration diagram, and an example integration into a diver-propulsion-vehicle photogrammetry rig showing the live on-screen readout">
 
@@ -101,8 +101,8 @@ If you use FireFish, please cite the article:
 }
 ```
 
-> 📌 The archival version of record (design files + firmware) will be deposited to **Zenodo/OSF** with a DOI on
-> publication; this GitHub repository is the development mirror.
+> 📌 The archival version of record (design files + firmware) is deposited on **Zenodo**:
+> [https://doi.org/10.5281/zenodo.23073946](https://doi.org/10.5281/zenodo.23073946). This GitHub repository is the development mirror.
 
 ## ⚖️ License
 
